@@ -1,10 +1,10 @@
 Dependencies for Project 'Compact_Induction_Heater', Target 'Compact_Induction_Heater': (DO NOT MODIFY !)
 CompilerVersion: 6240000::V6.24::ARMCLANG
-F (startup_stm32g071xx.s)(0x6ACE10DC)(--target=arm-arm-none-eabi -mcpu=cortex-m0plus -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 543" -Wa,armasm,--pd,"STM32G071xx SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./compact_induction_heater/startup_stm32g071xx.o)
-F (../Core/Src/main.c)(0x6ACE10DB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/main.o -MMD)
-I (..\Core\Inc\main.h)(0x6ACE10DB)
+F (startup_stm32g071xx.s)(0x6ACE1E79)(--target=arm-arm-none-eabi -mcpu=cortex-m0plus -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 543" -Wa,armasm,--pd,"STM32G071xx SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./compact_induction_heater/startup_stm32g071xx.o)
+F (../Core/Src/main.c)(0x6ACE1E77)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/main.o -MMD)
+I (..\Core\Inc\main.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -26,6 +26,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -52,6 +54,7 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_ucpd.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_gpio.h)(0x69E0DB40)
 I (..\Core\Inc\adc.h)(0x6ACE10D7)
 I (..\Core\Inc\comp.h)(0x6ACE10D7)
+I (..\Core\Inc\crc.h)(0x6ACE1E73)
 I (..\Core\Inc\dac.h)(0x6ACE10D7)
 I (..\Core\Inc\dma.h)(0x6ACE10D7)
 I (..\Core\Inc\i2c.h)(0x6ACE10D7)
@@ -74,11 +77,11 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_tim.h)(0x69E0DB40)
 I (..\USBPD\Target\usbpd_pwr_user.h)(0x6ACE10D9)
 I (..\USBPD\App\usbpd_pwr_if.h)(0x6ACE10DA)
 I (..\Core\Inc\gpio.h)(0x6AABF41F)
-F (../Core/Src/gpio.c)(0x6ACE10D4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/gpio.o -MMD)
+F (../Core/Src/gpio.c)(0x6ACE1E6F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/gpio.o -MMD)
 I (..\Core\Inc\gpio.h)(0x6AABF41F)
-I (..\Core\Inc\main.h)(0x6ACE10DB)
+I (..\Core\Inc\main.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -100,6 +103,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -124,11 +129,11 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_utils.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_pwr.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_ucpd.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_gpio.h)(0x69E0DB40)
-F (../Core/Src/adc.c)(0x6ACE10D6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/adc.o -MMD)
+F (../Core/Src/adc.c)(0x6ACE1E72)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/adc.o -MMD)
 I (..\Core\Inc\adc.h)(0x6ACE10D7)
-I (..\Core\Inc\main.h)(0x6ACE10DB)
+I (..\Core\Inc\main.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -150,6 +155,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -174,11 +181,11 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_utils.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_pwr.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_ucpd.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_gpio.h)(0x69E0DB40)
-F (../Core/Src/comp.c)(0x6ACE10D7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/comp.o -MMD)
+F (../Core/Src/comp.c)(0x6ACE1E73)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/comp.o -MMD)
 I (..\Core\Inc\comp.h)(0x6ACE10D7)
-I (..\Core\Inc\main.h)(0x6ACE10DB)
+I (..\Core\Inc\main.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -200,6 +207,60 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash_ex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c_ex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr_ex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rtc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rtc_ex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi_ex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim_ex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_bus.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_system.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_cortex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_utils.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_pwr.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_ucpd.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_gpio.h)(0x69E0DB40)
+F (../Core/Src/crc.c)(0x6ACE1E73)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/crc.o -MMD)
+I (..\Core\Inc\crc.h)(0x6ACE1E73)
+I (..\Core\Inc\main.h)(0x6ACE1E77)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g071xx.h)(0x69E0DB40)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x69E0DB30)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_rcc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc_ex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio_ex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dma.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dmamux.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma_ex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_cortex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -226,9 +287,9 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_ucpd.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_gpio.h)(0x69E0DB40)
 F (../Core/Src/dac.c)(0x6ACE10D7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/dac.o -MMD)
 I (..\Core\Inc\dac.h)(0x6ACE10D7)
-I (..\Core\Inc\main.h)(0x6ACE10DB)
+I (..\Core\Inc\main.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -250,6 +311,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -276,9 +339,9 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_ucpd.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_gpio.h)(0x69E0DB40)
 F (../Core/Src/dma.c)(0x6ACE10D7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/dma.o -MMD)
 I (..\Core\Inc\dma.h)(0x6ACE10D7)
-I (..\Core\Inc\main.h)(0x6ACE10DB)
+I (..\Core\Inc\main.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -300,6 +363,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -326,9 +391,9 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_ucpd.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_gpio.h)(0x69E0DB40)
 F (../Core/Src/i2c.c)(0x6ACE10D7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/i2c.o -MMD)
 I (..\Core\Inc\i2c.h)(0x6ACE10D7)
-I (..\Core\Inc\main.h)(0x6ACE10DB)
+I (..\Core\Inc\main.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -350,6 +415,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -376,9 +443,9 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_ucpd.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_gpio.h)(0x69E0DB40)
 F (../Core/Src/rtc.c)(0x6ACE10D7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/rtc.o -MMD)
 I (..\Core\Inc\rtc.h)(0x6ACE10D8)
-I (..\Core\Inc\main.h)(0x6ACE10DB)
+I (..\Core\Inc\main.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -400,6 +467,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -424,11 +493,11 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_utils.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_pwr.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_ucpd.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_gpio.h)(0x69E0DB40)
-F (../Core/Src/spi.c)(0x6ACE10D8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/spi.o -MMD)
+F (../Core/Src/spi.c)(0x6ACE1E74)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/spi.o -MMD)
 I (..\Core\Inc\spi.h)(0x6ACE10D8)
-I (..\Core\Inc\main.h)(0x6ACE10DB)
+I (..\Core\Inc\main.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -450,6 +519,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -474,11 +545,11 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_utils.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_pwr.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_ucpd.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_gpio.h)(0x69E0DB40)
-F (../Core/Src/tim.c)(0x6ACE10D8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/tim.o -MMD)
+F (../Core/Src/tim.c)(0x6ACE1E74)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/tim.o -MMD)
 I (..\Core\Inc\tim.h)(0x6ACE10D8)
-I (..\Core\Inc\main.h)(0x6ACE10DB)
+I (..\Core\Inc\main.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -500,6 +571,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -526,9 +599,9 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_ucpd.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_gpio.h)(0x69E0DB40)
 F (../Core/Src/ucpd.c)(0x6ACE10D8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/ucpd.o -MMD)
 I (..\Core\Inc\ucpd.h)(0x6ACE10D8)
-I (..\Core\Inc\main.h)(0x6ACE10DB)
+I (..\Core\Inc\main.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -550,6 +623,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -576,9 +651,9 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_ucpd.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_gpio.h)(0x69E0DB40)
 F (../Core/Src/usart.c)(0x6ACE10D8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/usart.o -MMD)
 I (..\Core\Inc\usart.h)(0x6ACE10D8)
-I (..\Core\Inc\main.h)(0x6ACE10DB)
+I (..\Core\Inc\main.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -600,6 +675,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -625,9 +702,9 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_pwr.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_ucpd.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_gpio.h)(0x69E0DB40)
 F (../Core/Src/stm32g0xx_it.c)(0x6ACE10DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/stm32g0xx_it.o -MMD)
-I (..\Core\Inc\main.h)(0x6ACE10DB)
+I (..\Core\Inc\main.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -649,6 +726,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -688,9 +767,9 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_tim.h)(0x69E0DB40)
 I (..\USBPD\Target\usbpd_pwr_user.h)(0x6ACE10D9)
 I (..\USBPD\App\usbpd_pwr_if.h)(0x6ACE10DA)
 F (../Core/Src/stm32g0xx_hal_msp.c)(0x6ACE10DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/stm32g0xx_hal_msp.o -MMD)
-I (..\Core\Inc\main.h)(0x6ACE10DB)
+I (..\Core\Inc\main.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -712,6 +791,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -743,7 +824,7 @@ I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g071xx.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x69E0DB30)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69E0DB40)
@@ -761,6 +842,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -786,7 +869,7 @@ I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g071xx.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x69E0DB30)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69E0DB40)
@@ -803,6 +886,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -822,7 +907,7 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x69E0DB40)
 F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc.c)(0x69E0DB40)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/stm32g0xx_hal_adc.o -MMD)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -844,6 +929,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -863,7 +950,7 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x69E0DB40)
 F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc_ex.c)(0x69E0DB40)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/stm32g0xx_hal_adc_ex.o -MMD)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -885,6 +972,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -909,7 +998,7 @@ I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g071xx.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x69E0DB30)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69E0DB40)
@@ -926,6 +1015,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -951,7 +1042,7 @@ I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g071xx.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x69E0DB30)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69E0DB40)
@@ -968,6 +1059,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -992,7 +1085,7 @@ I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g071xx.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x69E0DB30)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69E0DB40)
@@ -1010,6 +1103,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -1031,7 +1126,7 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_system.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_pwr.h)(0x69E0DB40)
 F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c)(0x69E0DB40)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/stm32g0xx_hal_rcc.o -MMD)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -1053,6 +1148,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -1072,7 +1169,7 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x69E0DB40)
 F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c)(0x69E0DB40)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/stm32g0xx_hal_rcc_ex.o -MMD)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -1094,6 +1191,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -1113,7 +1212,7 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x69E0DB40)
 F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c)(0x69E0DB40)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/stm32g0xx_hal_flash.o -MMD)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -1135,6 +1234,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -1154,7 +1255,7 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x69E0DB40)
 F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c)(0x69E0DB40)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/stm32g0xx_hal_flash_ex.o -MMD)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -1176,6 +1277,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -1195,7 +1298,7 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x69E0DB40)
 F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c)(0x69E0DB40)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/stm32g0xx_hal_gpio.o -MMD)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -1217,6 +1320,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -1236,7 +1341,7 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x69E0DB40)
 F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c)(0x69E0DB40)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/stm32g0xx_hal_dma.o -MMD)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -1258,6 +1363,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -1277,7 +1384,7 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x69E0DB40)
 F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c)(0x69E0DB40)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/stm32g0xx_hal_dma_ex.o -MMD)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -1299,6 +1406,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -1318,7 +1427,7 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x69E0DB40)
 F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c)(0x69E0DB40)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/stm32g0xx_hal_pwr.o -MMD)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -1340,6 +1449,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -1359,7 +1470,7 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x69E0DB40)
 F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c)(0x69E0DB40)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/stm32g0xx_hal_pwr_ex.o -MMD)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -1381,6 +1492,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -1400,7 +1513,7 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x69E0DB40)
 F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c)(0x69E0DB40)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/stm32g0xx_hal_cortex.o -MMD)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -1422,6 +1535,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -1441,7 +1556,7 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x69E0DB40)
 F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c)(0x69E0DB40)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/stm32g0xx_hal.o -MMD)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -1463,6 +1578,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -1482,7 +1599,7 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x69E0DB40)
 F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c)(0x69E0DB40)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/stm32g0xx_hal_exti.o -MMD)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -1504,6 +1621,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -1523,7 +1642,7 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x69E0DB40)
 F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_comp.c)(0x69E0DB40)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/stm32g0xx_hal_comp.o -MMD)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -1545,6 +1664,94 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash_ex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c_ex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr_ex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rtc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rtc_ex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi_ex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim_ex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x69E0DB40)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc.c)(0x69E0DB40)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/stm32g0xx_hal_crc.o -MMD)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g071xx.h)(0x69E0DB40)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x69E0DB30)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_rcc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc_ex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio_ex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dma.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dmamux.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma_ex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_cortex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_flash_ex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_i2c_ex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_pwr_ex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rtc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rtc_ex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_spi_ex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim_ex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x69E0DB40)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc_ex.c)(0x69E0DB40)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/stm32g0xx_hal_crc_ex.o -MMD)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g071xx.h)(0x69E0DB40)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x69E0DB30)
+I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_rcc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc_ex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_gpio_ex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dma.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_dmamux.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dma_ex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_cortex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -1564,7 +1771,7 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x69E0DB40)
 F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dac.c)(0x69E0DB40)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/stm32g0xx_hal_dac.o -MMD)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -1586,6 +1793,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -1605,7 +1814,7 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x69E0DB40)
 F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dac_ex.c)(0x69E0DB40)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/stm32g0xx_hal_dac_ex.o -MMD)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -1627,6 +1836,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -1646,7 +1857,7 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x69E0DB40)
 F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c.c)(0x69E0DB40)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/stm32g0xx_hal_i2c.o -MMD)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -1668,6 +1879,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -1687,7 +1900,7 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x69E0DB40)
 F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c_ex.c)(0x69E0DB40)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/stm32g0xx_hal_i2c_ex.o -MMD)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -1709,6 +1922,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -1728,7 +1943,7 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x69E0DB40)
 F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rtc.c)(0x69E0DB40)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/stm32g0xx_hal_rtc.o -MMD)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -1750,6 +1965,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -1769,7 +1986,7 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x69E0DB40)
 F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rtc_ex.c)(0x69E0DB40)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/stm32g0xx_hal_rtc_ex.o -MMD)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -1791,6 +2008,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -1810,7 +2029,7 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x69E0DB40)
 F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c)(0x69E0DB40)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/stm32g0xx_hal_spi.o -MMD)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -1832,6 +2051,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -1851,7 +2072,7 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x69E0DB40)
 F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c)(0x69E0DB40)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/stm32g0xx_hal_spi_ex.o -MMD)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -1873,6 +2094,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -1892,7 +2115,7 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x69E0DB40)
 F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c)(0x69E0DB40)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/stm32g0xx_hal_tim.o -MMD)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -1914,6 +2137,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -1933,7 +2158,7 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x69E0DB40)
 F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c)(0x69E0DB40)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/stm32g0xx_hal_tim_ex.o -MMD)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -1955,6 +2180,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -1979,7 +2206,7 @@ I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g071xx.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x69E0DB30)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69E0DB40)
@@ -1997,6 +2224,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -2022,7 +2251,7 @@ I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g071xx.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x69E0DB30)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69E0DB40)
@@ -2039,6 +2268,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -2059,7 +2290,7 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_bus.h)(0x69E0DB40)
 F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c)(0x69E0DB40)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/stm32g0xx_hal_uart.o -MMD)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -2081,6 +2312,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -2100,7 +2333,7 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x69E0DB40)
 F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c)(0x69E0DB40)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/stm32g0xx_hal_uart_ex.o -MMD)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -2122,6 +2355,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -2146,7 +2381,7 @@ I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g071xx.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x69E0DB30)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69E0DB40)
@@ -2164,6 +2399,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -2188,7 +2425,7 @@ I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g071xx.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x69E0DB30)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69E0DB40)
@@ -2206,6 +2443,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -2224,9 +2463,9 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_tim_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_uart_ex.h)(0x69E0DB40)
 F (../USBPD/Target/usbpd_dpm_user.c)(0x6ACE10D9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Os -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../USBPD/App -I ../USBPD/Target -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/ST/STM32_USBPD_Library/Core/inc -I ../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G0XX/inc-I./RTE/_Compact_Induction_Heater-ID:/AppData/Roaming/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-ID:/AppData/Roaming/Arm/Packs/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include-D__UVISION_VERSION="543" -DSTM32G071xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G071xx -DUSBPD_PORT_COUNT="1" -D_SNK -DUSBPDCORE_LIB_PD3_CONFIG_MINSNK -DUSE_HAL_DRIVER-o ./compact_induction_heater/usbpd_dpm_user.o -MMD)
-I (..\Core\Inc\main.h)(0x6ACE10DB)
+I (..\Core\Inc\main.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g0xx.h)(0x69E0DB40)
@@ -2248,6 +2487,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -2288,7 +2529,7 @@ I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g071xx.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x69E0DB30)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69E0DB40)
@@ -2306,6 +2547,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -2341,7 +2584,7 @@ I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g071xx.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x69E0DB30)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69E0DB40)
@@ -2359,6 +2602,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -2395,7 +2640,7 @@ I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g071xx.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x69E0DB30)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69E0DB40)
@@ -2413,6 +2658,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -2466,7 +2713,7 @@ I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g071xx.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x69E0DB30)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69E0DB40)
@@ -2484,6 +2731,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -2521,7 +2770,7 @@ I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g071xx.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x69E0DB30)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69E0DB40)
@@ -2539,6 +2788,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -2573,7 +2824,7 @@ I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g071xx.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x69E0DB30)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69E0DB40)
@@ -2591,6 +2842,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -2632,7 +2885,7 @@ I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g071xx.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x69E0DB30)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69E0DB40)
@@ -2650,6 +2903,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -2681,7 +2936,7 @@ I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g071xx.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x69E0DB30)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69E0DB40)
@@ -2699,6 +2954,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -2740,7 +2997,7 @@ I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g071xx.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x69E0DB30)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69E0DB40)
@@ -2758,6 +3015,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)
@@ -2789,7 +3048,7 @@ I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\stm32g071xx.h)(0x69E0DB40)
 I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x69E0DB30)
 I (..\Drivers\CMSIS\Device\ST\STM32G0xx\Include\system_stm32g0xx.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal.h)(0x69E0DB40)
-I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE10DA)
+I (..\Core\Inc\stm32g0xx_hal_conf.h)(0x6ACE1E77)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_rcc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_def.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69E0DB40)
@@ -2807,6 +3066,8 @@ I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_adc.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_adc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_comp.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_ll_exti.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc.h)(0x69E0DB40)
+I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_crc_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_dac_ex.h)(0x69E0DB40)
 I (..\Drivers\STM32G0xx_HAL_Driver\Inc\stm32g0xx_hal_exti.h)(0x69E0DB40)

@@ -86,8 +86,6 @@ void Error_Handler(void);
 #define R_GPIO_Port GPIOA
 #define VBIAS_Pin LL_GPIO_PIN_5
 #define VBIAS_GPIO_Port GPIOA
-#define NTC_SYS_Pin LL_GPIO_PIN_0
-#define NTC_SYS_GPIO_Port GPIOB
 #define NTC_POT_Pin LL_GPIO_PIN_1
 #define NTC_POT_GPIO_Port GPIOB
 #define VBUS_Pin LL_GPIO_PIN_2

@@ -20,6 +20,7 @@
 #include "main.h"
 #include "adc.h"
 #include "comp.h"
+#include "crc.h"
 #include "dac.h"
 #include "dma.h"
 #include "i2c.h"
@@ -110,6 +111,7 @@ int main(void)
   MX_TIM6_Init();
   MX_UCPD2_Init();
   MX_USART1_UART_Init();
+  MX_CRC_Init();
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */

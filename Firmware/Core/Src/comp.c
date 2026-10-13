@@ -42,7 +42,7 @@ void MX_COMP1_Init(void)
   hcomp1.Init.InputPlus = COMP_INPUT_PLUS_IO1;
   hcomp1.Init.InputMinus = COMP_INPUT_MINUS_DAC1_CH1;
   hcomp1.Init.OutputPol = COMP_OUTPUTPOL_NONINVERTED;
-  hcomp1.Init.WindowOutput = COMP_WINDOWOUTPUT_EACH_COMP;
+  hcomp1.Init.WindowOutput = COMP_WINDOWOUTPUT_COMP1;
   hcomp1.Init.Hysteresis = COMP_HYSTERESIS_NONE;
   hcomp1.Init.BlankingSrce = COMP_BLANKINGSRC_NONE;
   hcomp1.Init.Mode = COMP_POWERMODE_HIGHSPEED;
@@ -97,6 +97,18 @@ void HAL_COMP_MspInit(COMP_HandleTypeDef* compHandle)
   /* USER CODE BEGIN COMP1_MspInit 0 */
 
   /* USER CODE END COMP1_MspInit 0 */
+
+    __HAL_RCC_GPIOA_CLK_ENABLE();
+    /**COMP1 GPIO Configuration
+    PA6     ------> COMP1_OUT
+    */
+    GPIO_InitStruct.Pin = GPIO_PIN_6;
+    GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
+    GPIO_InitStruct.Pull = GPIO_NOPULL;
+    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+    GPIO_InitStruct.Alternate = GPIO_AF7_COMP1;
+    HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+
   /* USER CODE BEGIN COMP1_MspInit 1 */
 
   /* USER CODE END COMP1_MspInit 1 */
@@ -130,6 +142,12 @@ void HAL_COMP_MspDeInit(COMP_HandleTypeDef* compHandle)
   /* USER CODE BEGIN COMP1_MspDeInit 0 */
 
   /* USER CODE END COMP1_MspDeInit 0 */
+
+    /**COMP1 GPIO Configuration
+    PA6     ------> COMP1_OUT
+    */
+    HAL_GPIO_DeInit(GPIOA, GPIO_PIN_6);
+
   /* USER CODE BEGIN COMP1_MspDeInit 1 */
 
   /* USER CODE END COMP1_MspDeInit 1 */
