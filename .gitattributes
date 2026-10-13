@@ -1,0 +1,47 @@
+# 行尾策略:Git 内部统一存 LF,Windows 工具链(MounRiver Studio / Eclipse)
+# 在检出时拿到 CRLF(它们写入时也是 CRLF,避免整文件差异)。
+* text=auto
+
+# MounRiver / Eclipse 工程文件是 XML:固定 CRLF,避免本地编辑显示为整文件 diff。
+*.cproject text eol=crlf
+*.project  text eol=crlf
+*.wvproj   text eol=crlf
+*.launch   text eol=crlf
+
+# 二进制资产不被 Git 触碰:PDF / 图片 / 固件镜像必须逐字节保持不变。
+*.pdf  binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.bmp  binary
+*.ico  binary
+*.hex  binary
+*.bin  binary
+*.elf  binary
+*.a    binary
+*.lib  binary
+*.zip  binary
+*.xls  binary
+*.xlsx binary
+*.doc  binary
+*.docx binary
+
+# LCEDA / EasyEDA Pro 工程文件是 ZIP 容器:保持逐字节、不做文本 diff。
+*.epro2 binary
+*.epro  binary
+*.eprj  binary
+
+# 交互式 BOM 导出(内嵌图片与全量位号数据):按二进制处理。
+Hardware/Manufacturing/BOM/*.html binary
+
+# 归档与机械导出。
+*.rar  binary
+*.7z   binary
+*.tar  binary
+*.gz   binary
+*.stl  binary
+*.step binary
+*.stp  binary
+*.3mf  binary
+*.dxf  binary

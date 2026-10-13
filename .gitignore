@@ -1,0 +1,39 @@
+# 工程模板默认忽略规则(复制到新工程后按需增删)。
+
+# ---- 工具链 / IDE 本地状态 ----
+# MounRiver Studio / Eclipse 本地状态与运行配置
+.mrs/
+.template
+.settings/
+*.launch
+
+# ---- 构建产物 ----
+/obj/
+/Firmware/obj/
+/Firmware/Project/obj/*
+!/Firmware/Project/obj/.gitkeep
+build/
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.siz
+*.su
+
+# ---- 编辑器 / 操作系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+
+# ---- 脚本工具本地环境 ----
+.venv/
+__pycache__/
+
+# ---- 内部调试笔记(示例:需要时取消注释并改为实际路径) ----
+# Firmware/**/debug_notes.md
