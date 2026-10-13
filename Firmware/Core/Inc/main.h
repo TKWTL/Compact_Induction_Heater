@@ -27,6 +27,7 @@ extern "C" {
 #endif
 
 /* Includes ------------------------------------------------------------------*/
+#include "stm32g0xx_hal.h"
 
 #include "stm32g0xx_ll_rcc.h"
 #include "stm32g0xx_ll_bus.h"
@@ -38,10 +39,6 @@ extern "C" {
 #include "stm32g0xx_ll_dma.h"
 #include "stm32g0xx_ll_ucpd.h"
 #include "stm32g0xx_ll_gpio.h"
-
-#if defined(USE_FULL_ASSERT)
-#include "stm32_assert.h"
-#endif /* USE_FULL_ASSERT */
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -71,6 +68,40 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define I2C_INT_Pin LL_GPIO_PIN_13
+#define I2C_INT_GPIO_Port GPIOC
+#define EXIT_Pin LL_GPIO_PIN_0
+#define EXIT_GPIO_Port GPIOF
+#define ENTR_Pin LL_GPIO_PIN_1
+#define ENTR_GPIO_Port GPIOF
+#define L_Pin LL_GPIO_PIN_0
+#define L_GPIO_Port GPIOA
+#define IBUS_Pin LL_GPIO_PIN_1
+#define IBUS_GPIO_Port GPIOA
+#define CT_RMS_Pin LL_GPIO_PIN_2
+#define CT_RMS_GPIO_Port GPIOA
+#define CT_OCP_Pin LL_GPIO_PIN_3
+#define CT_OCP_GPIO_Port GPIOA
+#define R_Pin LL_GPIO_PIN_4
+#define R_GPIO_Port GPIOA
+#define VBIAS_Pin LL_GPIO_PIN_5
+#define VBIAS_GPIO_Port GPIOA
+#define NTC_SYS_Pin LL_GPIO_PIN_0
+#define NTC_SYS_GPIO_Port GPIOB
+#define NTC_POT_Pin LL_GPIO_PIN_1
+#define NTC_POT_GPIO_Port GPIOB
+#define VBUS_Pin LL_GPIO_PIN_2
+#define VBUS_GPIO_Port GPIOB
+#define ISR_LOAD_Pin LL_GPIO_PIN_10
+#define ISR_LOAD_GPIO_Port GPIOB
+#define ISR_TIME_Pin LL_GPIO_PIN_13
+#define ISR_TIME_GPIO_Port GPIOB
+#define CT_ZERO_Pin LL_GPIO_PIN_14
+#define CT_ZERO_GPIO_Port GPIOB
+#define PWM_EN_Pin LL_GPIO_PIN_6
+#define PWM_EN_GPIO_Port GPIOC
+#define D_C_Pin LL_GPIO_PIN_4
+#define D_C_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 

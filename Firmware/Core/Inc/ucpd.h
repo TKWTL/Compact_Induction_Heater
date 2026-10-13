@@ -36,7 +36,7 @@ extern "C" {
 
 /* USER CODE END Private defines */
 
-void MX_UCPD1_Init(void);
+void MX_UCPD2_Init(void);
 
 /* USER CODE BEGIN Prototypes */
 
